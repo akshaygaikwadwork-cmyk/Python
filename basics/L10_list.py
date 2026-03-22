@@ -36,7 +36,14 @@ print("Sublist: ")
 mylist = ["apple", "banana", "cherry", "orange", "grape"]
 sublist = mylist[1:4]  # Creates a sublist from index 1 to 3 (not including index 4)
 print(sublist)  # Output: ['banana', 'cherry', 'orange']
+
 # List methods
+# sort, reverse, extend, copy
+# The sort() method sorts the list in ascending order by default. You can also specify reverse=True to sort in descending order.
+# The reverse() method reverses the order of the list.
+# The extend() method is used to add elements from another list (or any iterable) to the end of the current list.
+# The copy() method creates a shallow copy of the list, which means it creates a new list with the same elements but does not create copies of the elements themselves (if they are mutable objects).
+
 print("List methods: ")
 mylist.sort()  # Sorts the list in ascending order
 print(mylist)  # Output: ['apple', 'banana', 'cherry', 'grape', 'orange']

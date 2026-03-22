@@ -26,7 +26,13 @@ print(type(mytuple))  # Output: <class 'tuple'>
 mytuple = "apple", "banana", "cherry", "apple"
 print(mytuple)
 print(type(mytuple))  # Output: <class 'tuple'>
+
 # Tuple methods
+# len, count, index
+# The len() function returns the number of items in a tuple.
+# The count() method returns the number of times a specified value appears in the tuple. 
+# The index() method searches the tuple for a specified value and returns the position of where it was found.
+
 print("Tuple methods: ")
 print(mytuple.count("apple"))  # Output: 2
 print(mytuple.index("banana"))  # Output: 1
